@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-color: #006eff;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+}
+
+.footer{
+    width: 80vw;
+    height: 40vh;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 60px;
+    display: flex;
+    align-items:center ;
+    justify-content:space-between;
+    flex-direction: row;
+    box-shadow: 0px 5px 30px 5px rgba(56, 56, 56, 0.815);
+}
+
+.brand{
+    padding: 20px;  
+}
+
+.brand h1{
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+    font-weight: 550;
+}
+
+.brand p{
+    color: #006eff;
+    font-size: 0.9rem;
+}
+
+.links{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    list-style: none;
+    align-self: flex-start;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 450;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+ul li a:hover{
+    background-color: #969696c0;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.1rem;
+    padding: 20px;
+}
+
+.contact button{
+    padding: 5px 15px;
+    border-radius: 6px;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.contact .contact-btn{
+    padding: 5px 30px;
+    background-color: #006eff;
+    color: #fff;
+}
+
+.contact .click{
+    border: 1px solid #969696;
+    background-color: transparent;
+}
